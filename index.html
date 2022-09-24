@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  
+
+  <title>Chinonso's Portfolio</title>
+</head>
+<body>
+   <!--===== HEADER =====-->
+   <header class="header-1">
+    <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZFJREFUSEu1VltyAyEMg5v1aM3N0pNth0djG0ug7KR8ZDK7i4VlWaYWuGop5cKvjk+VvbW0r+aKG9j2/tx+4jHSpgZwzRT8ywAc8e0zJYPSMxgc8QQi9H9RfTivoxoyvslgRgYAgHGTjNsGcva1OaqJyWS7cZ/xWhQk9C2lgJWQcQb49v2EY7OgkPvH2p2snUJu28R10QfqB3Duy9GqoD1S4QT1Xh0htxkwATkaNId+5JmMGYjvmsVANNZElSdgKWMxuPss6eDQEbmdRrCvd6fEFriUn1VKAdgJ6ro1nZhlDT8KGq5evU4IkqB9QawxputFCuocaS+FsT5uVH9kTfznGowAf6qd+LgmNQbz1TskaJVeJqZk6KI7QsmGe5eipY8xqTWr+l13iTZszP4xF9+/0r+XFJZ5q9ui6lFKtNpYPC5GAnie4jHgAaqJ2w7o6ZMskzuODZpEY5w22Ok4J8xAiP0DMFl0mqrJRZwZgoa+sg9uINwJ0mD3JID/TKF7cR11fRagBGyi1BoF8wLu5ODDX9XOxyR9D4wBAAAAAElFTkSuQmCC"/>
+        </div>
+
+        <div>
+          <a href="#" class="nav__logo">Chinonso</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAhdJREFUSEulVut5gzAMPE3QbNKMkGzCBk0nygjtCtmAUWAC9zMWIFmSDSl/kgDW4+50CkFcBCDxb/l9uWVu6BeXx80AHILfyR/u1Ylhzpx7n5Y+zl+mvRiQPbhoNR1KrDHuIL5z0uGK+oG0Cghp08ERmiJ9KKibRWqkdhU2lScFmOHdiw47ltyoA0L5/1GYFZfsrCO7iKbmnKzx98MaCnH4AuAHwDdAY4VxnWMA6IuQ7okw1aZQj5w+bLkcAXwCmADcAeTf3jUAeLLXvBJwawFWOHbmUnA8AGkJWCcXx0rScmMGUk66F+jQd8C5llNbNzI5x5PPZpROOWk8rAdUvY3EgFSgFMmvAt6Z4bVUOHNaOnYKM+iXd0R3NAHpwmdLp4RRCyoUrPZqqfBoTxEwJBYRdz8DdANSJDpXY7bjWvPJACI5zQ/z2NwJGNeVesjMmqq2aqyF9LFyTkCe3QrqaGs1tpND+5KU76/qvYLwZF71nJuidcSjqpbmwOrdXMwdNUVsQF9vi9s5lZAWQtsmI6sQSHRWwWIG2TJ76pUFvthIgtghx4qPvCR+QXggSZ92XSknf/BMT9mLzR8H1bHDwT4SjtE2XcfZOYFBdaBuV63+0m7u2lieax/+YoqtztFJVXgEn0Ui7jjy8J4cXf+v5rjfgZw2e7jY5PkKi1e/dZ2lo9GxUXJUkLNfpZyaLLfF9RYEzhzFlf8BqCz5JvsZJeQAAAAASUVORK5CYII="/>
+            </div>
+
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+              <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+              <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+              <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+              <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+        
+
+   <main class="main-1">
+    <!--===== HOME =====-->
+   <section class="home" id="home">
+      <div class="home__container bd-grid">
+         <div class="home__data">
+            <div class="home__img">
+              <!-- <img src="./images/work3.jpg" alt=""> -->
+            </div>
+
+            <h1 class="home__title">Chinonso Chibuzor</h1>
+            <span class="home__profession">Frontend Developer</span>
+
+            <div class="home__social">
+              <a href="#" class="home__social-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArNJREFUSEullz2OE0EQhb86AGIJSIhMSrTkIHlOAKRISCACCCEj8/gEiIwMkJAI8QXQWpAjiEh9BCNt3mime7qr+mfGKzrx7E53var3XlXbwrAEcONTZdmX6a/wNH7oPYLgQrjWWQ+5CNZKaTlpXVOZxGnAV2ClCFg5qyo2FD0FdxP4BvycrVi/LAC0HDZKSbXwA8c9peUTcJ/NsULXk1OL3EuW5AvgfQzjX/4B7jRDV4qaVSUEyiveAH1m9EuBa964bZde1aQ58H3gexbkC/D4dDLb9epWNFSHFy+BN8At4CvwHLgse932rh4EdY/V2ukUUU7pkdnGnunjZbOGlqtMq1DxOXA95Pgb5NgaibnGa+Ai67it4Prgq8F4m4x2AXkI7i2wyoy5A14Dh3wye41TS6xdAcxWwALbzJ4BH+qKj/8dQO8CRzNrjNNwVeCpxcLn0HJpCUccZ/UBFqO/A17le2JLSw7sz21HQP/sqW6vv0rjdO0JBxy3tfcaGhsHemC/eoGNuUH91oHuj2GP90np1BsCRyWrZo1AdRu4qFj4hJPhUtE87BAeDOZJdzMdsJ82NV2toFXF0gvOVgyPQHYjcDoUJVFxOoH9lF5+SawRLmLyWuNAdaXiDpcqmSSZ9inGfcWpg8xXH9vH/tQWXNBYenC2j4UOJ/uM6poJK8BJnQqwdrUGjiQa7QLfAdh4pa2xMGOudjulgC2N/f8rwLOTS/zILDTWFQeqNbCwye7vBXNVZnXSOAwQw6CtJDeX6jGrcXLd+BQ0rvTxAtVZnAWNh/62ywJXRqaeXCG9Dv7L1WOYM4TzTJuDwCFovBJY+efIyq/i5hn2CKvs14nZpyrW9JpRN3MnpAE4jkar/cy5jOrinM2l+JZpprwdmfHGS4PFRvcVL2SaXqt5V/uRt5x5zPUfl6o0MYcwC/0AAAAASUVORK5CYII="/></a>
+              <a href="#" class="home__social-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAgxJREFUSEudVu1VQjEMvZlENgE3YAUn4TmJbsBxAmEDR9AN3KCeltKXNDevxf6AA23zcXNvUsFwCYAE1K/1uP1/3dYH9RlrIP+qixhyzkiUzg8JlNhRjmtSJGAOSmAtRQhpK1IAjJezQaPaAXhSRn4AfDOj5Xb9mHIcRHYA8AYgO9brCiDv8SqqZAjGA8YJjkg4E9v5L+84oMYQahf6DcobvL7UE45HNeYpHSD4zApTjrOzSw0iB/V+D2hLhc0816ID5AjBWUk7k6mvM0PCld0eGmt3AXBSVgq042sZ3mSAapiVjZXzUe2p46DegQ1W42nHLccJMnn/gY5do7gA2PfXOXHkQ5COd+4FkoOMa1MocEmCfa3DQOR4BZDL4VafzpCBRSok4yCClyInozYleNO53CEXS9bovlEyxK9M0Gelaa31SE6W7hs4EVbLocxsR+1ogt0Ss3Ii2XSNZYHglOtddfkPVj/SMteAWsY1oK6B2Fkakfc/Y/GBBhK/KqYcd1HHjiPSkbYWNpC1r7oeu6TaqzXUmiv8cWjpup0xbwLNcU3kitS9ONS9iRrP9TBBWlJhdbPuWM3bfTidiAxnMq5PHR72Brnm8ry3h3K6kotMp01jdtPX2MqwPKq6Ab5L9sXxC+BrJa53EE0q2rl0nWZQCQZGSDM/Fh+Aa+wsFraBuuvJsd0tjRhc48HzB8F+3yQUbbrPAAAAAElFTkSuQmCC"/></a>
+              <a href="#" class="home__social-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAx9JREFUSEuVl+t1EzEQhb+pwKYCTAWxK8DuIKkgSQVABTEVECrAVJB0EFNBnAogFWAqEOdK2tVjJftEf2yvVvO4986MbLxpGeCg/EgWJs/jg4YP7URDfWuGk7vJSmaNyTt9n8Fle//kqTUwA1vG7A84jga/WsH1AA0Zx7RT1BPHC4w7HJfAvGPsCDwC34HDKXwGkEfO8pejazn5BtwMweUc97A32Dnji5BIVJZvF1BXeS6BH8DyDF09/3+Aq3b2IdfWktMnjPmoKu/9jKqnIRzBbVrOWxwL3idlGu28Aor+YyYHj3hnvUR4L+I7OrsCUxCFidreDrjOjCriPbAAdgZzF8Qjg8JsgfN0HJ1xg/PPFfRzJp6fSSdJLXngMv67yuTD6KSbZHOjwsRW4A5588kbyD3wqdLfBpwyTquhtryZgFtiPFd0FFkXHIMTTO8zF+JXsIWyGNZ5x9KJ6Mhtyca73ET87jvRcwXabeS1oaXSe/4rFoD4Vjnm8W6csR/a/bCxNniqiFmNpTCx3Ow7uR9l/bdyfOVCdyvq+HPsUsPUKPcn8DYyjqlmAyPLw29+BbbnHRsbHPvUO3rwNntbq0Iqx+Gcpo4aR8rYuMWhuh50kI2/3hgdX9ZAeagYunUEe3nLnEYYhLBp0HtC4eNs3oFdVy1u1ExwnCxL8rOWsqtn1bERkMGPplmhaOBfGqkKrlxjAzF4dbEODbbOz9nYb/tCk5LVgLZZMoOH0EBGAZaOI9x+VyNtGO4RBduD06D3JZHS9j1Ac3st+PJrUBZjKs2R41InkvtdNKsBoWBy2Fq9O9RsQ2/xkYJVuRbx1vTNwWd2QRSXb5vGJY6DwWNnIkZ9THh4wVjjumOx0O7CT5IgNMlfrTMvs9Y81iDxMzvVvReUynRyB+vcMr0XQSwuL2JIOixIBXW1PK+ax7PxlgIvYDcxgaJ0gg5OrXD1ETcD50NCrVORAR+mON3WVVD3g1Kg7UCUvQJYGFwWHCdrouQIdh/HawOXgaEq42SjjK33T+IkWnm1db73zzd7f0VXXSMn/k50oO5Nnka4b3DWy+o/7R8kMirF3ckAAAAASUVORK5CYII="/></a>
+              <a href="#" class="home__social-link"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAArNJREFUSEuVlv15EzEMxn+agGxANiCdoGGChgkIE5BO0DIBMAHtBIQJGjZIN+gIyQTi0Z0vZ9nyXfAffVKfrI/3fSVbaCwBtPuTGwiCpi3/cdI++CiVbx+niz4GSx8nE2rZ+ArNBeSOWplMZtjCzSdRhqlTUZ9L7NbDXqFSHSqoyeGPiwp209bV9gH60xxXfIe1L4CvAmuFNfAGPAE/gVM6sUy/Tz2thpZf5uQ38Eng5ARdiaGjY6nCCyrLQv5m/QbyBLoBzsB6RKgILLDRPvDegvc5Tar6ANxeco+xf0XYoFjVh0HIDmqBR4WHJC0zukc55plmlRmsLxdHWcsX6jXkbMvsj2MxHure2bB6D48dX8LJJkcmxh3w3R2PdXjuuZfjmHTNsfmpqTWRCHu0o+BvEool9DBUkB8r4n+DLnln6gZIOrAFfs23Wade421upcBeK6WqDb73wKrj5IrorpC4v7+k9vKsFEKwXhw5DmqZnKjxDL9R4VgSWM5q62OD8F0Lv1jhrWEvZ0EXg2icVVBBx3E8tBJPrbLrIfMH2LhLaNBYw4dxbEq8Cytvj+/yqvso6KGv2B/KBohTxk7gLs3eBuoteC/m1nY2F3wnZWEix9YmNmU6riteW2r3qr6xoZFfl2WqvrPHNFYIBzQQWh4gT2KE9B744Svyh8o+LqtfgGwFXSl8rpkKYXwGTKDFKjieGTvWXjYWd5EyK80IzyjbSdFn+A4/F6AfAAtmqjao12j3/9yy+9amnj0ArloO6vSKsDa6ndVsLzq7eSyYnRleG07Hnbga7Re9Mk3VW4RVqjhd9vIKagFsuu0F9nWPBg+Hqqf6kL7PAqCq6qvLoBZOdLeWsWY5mRdLe5SN3Tah6two5yY+XJV9oWw+0QLquPT/hfEaWV7Fsa+sqr6FcrXvN/4BMuIeM51SbxwAAAAASUVORK5CYII="/></a>
+            </div>
+
+            <a download="" href="" class="button home__button">Download Resume</a>
+         </div>
+      </div>
+   </section> 
+    
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+        <span class="section-subtitle">My Intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__description">
+              Detail oriented quality assurance software tester currently training to be a fullstack web developer
+              <img src="./images/glass.png" alt="" class="about__img">
+            </p>
+          </div>
+ 
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Information</h3>
+              
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAuBJREFUSEuVl/152jAQxn83QbtB2wlIJwjZgGwQJoBM0GSCkgkYoWyQdILCBGUEmOD6nCTbJ0vCrv6JsaU73b0fUgQ3BND02z/7OcNza0blfSWwverH8F0QFJ3OXt1TWDYjf72g8XZSoBR0ibJIU47A7/CczxnaV2SwwtyCovqUxVW/AvbA59GyC7BGOPRYzSinMqXSamGHshk2mgOXNveMspvDGxnwaIMisFR4TwGtrRb8A7BKVyBb0Pv0/SF9q/PQwdFj0+qOwFEJmJ6Au3JeiHYGvoAcQb/HOdXOBeY1MR4F71T2HKr1JBomvgA/ejVOKCK2uopy/36JtTlOdG3Ms3s4BB40QtEczcRuxVfgb2rdo6CHUqOhpU8q7K0KgW8K1vquOYXWMgNpSSuR6BPwBmyzMoaWGeE2IFfQILfxyHRQtLre+xQ0hMpZG+dHOOLO3wTdRvgaXhm70o2bHmcVfIAsAvLCB4o5VpJTz/QG6zuO52fBLQ74b4b1AZOVN+Nhv6bvJ+Bc72KSVk97F3rmmWAYm3V2erbKbUO9Y9Xj5G9LcvkabxJgSqhjnc5MPApr1Zlz2d9Uad46CJgfQU6CmtON6DVKPLFvI9VeYFWy9CY1rPXrRL7qxMwyh02EpxXRELwmr6mymuStE6b1blxA1qC2iaq4aoKyIH9cEDOOHcg5HH/tYo35Rr6NY74dGAZDNlo6tomG6RVkBXrTd3OrCNgbNL9SJouVTqvcNcYG84KmU0Z4RmU3eYwUtYSebEF+prWvIC8+Tk1O5lD3oCeEu7lXGV+Lg+MosNB4JzNbHWCtsDo5qb4CdsZmRnWTyyXl8jPaYeKuPmFVTyqBR42OlFn9dOKMwuZwHdaRZO4Y97GWCO+pveXdKdNF2wHcl/ISUSYOb0yzgwcLl//416Iv1WHs4oW72KWvuHJizuzmnIpdeSPxN51rwiiKzc052bwzzrpX11vQSuWrrPQzvfoHOuogMm4L/o4AAAAASUVORK5CYII="/>
+                 <span>Chinonso Chibuzor</span>
+              </div>
+  
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAw1JREFUSEudlo1R40AMhT9VQKjgrgNCBQcVECog6QAqIFRwdECoAKggoYIkHUAFlw50o13Z2T+TwM4wxGt7pff0nmRhYAmg4d7+V31V3M4f3Z/c2Let8uzDwY5JKAVUBZYApw/cSGwE3AhsFVb9WQMIIkMNHBWrReDi/ghhiTL2/RmwaAPxTPJ/X5IZEdePGNIl9EG7h6rgWbJDNW7oSNJn/fc+aNiQT9Bfybt98G/EqaAliPujX4Erv9oCF8AEeErImaE57Q1QxVbtjvQBq+fa5dEF3Xm6U1SeBHWbMRNYaEXZMTwIGdWOzmpr65JaybfAX9fETtDTTsltxMNJZFQLjFVYE2FcI7x28IARyFLQsQd7F7j4TpMpySl13YF4AOYJEvPxn6L2sQw/WC1xbUDOQN8QJgnikJDAp0abZUGjAWKfPa7KdbbWJG5cUKYlL2mg/Upgp8JpktD38CbJ9Sf7WDDrvHjgaxSzl8GYor2lZiCLboyUtfopYjvHaDxBWKFB3d36AKyZ2P/zgP4A3q8GVpmwXc8F7r1mia1kKuiTB9sIXKqwK5T/AmoauCtZyXTQzkhGoP+8uBvQ8wTYAuHGRfShUfnP0W6xvydnZr29tlM7+hzh3gM8eACLbwEeewHGjKw09vc713Q4OB8smbhSDnKpdday3VJQU4G5xponS7aCLjR0uB7RPngX+IACxyArUBOaibg1FqcgE0GvFN59oBj6qQ2WNu11ry6tZddWs3WiXqupdbVjlrHiYgwp9EKNnasBu2B/HK0lJ+7dTVRt9zk0dEDQwzrWPqw7hEdrcUnL/MpxAa/RvhD0LEFv/ds63fP+7V49I1SWbi1DtwW9wO3X6tV7CttATFA2Hk+K268IGxRjw2psyu++1/LZ7iQ3amVU9AM/VWzcF0YotwK3ah0uV3X/Re7bfdDaxwdkUr5QzGDr7ZMwy+GsEMybq3tXfkPX4mp4up3XoBHNBSMVPtDQ05uEDNb4gL/bOjioz/y13LvHvJy0vdZ0ah+R62bAx/VDWYCj6RiSnfAfTcgrNEd7g6gAAAAASUVORK5CYII="/>
+                 <span>+2347069981779</span>
+              </div>
+  
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAp9JREFUSEuVl/1Z2zAQxn83QbNB2QDYoBtAJmiYoDBBkglIJ2g2ACYoI5gN6AZhgutz8jmSLMtW9AcPkc/38b7vnWThvARB0bjh/9X2C0MQQMOfiYf5lln5C3XbaX+eUC3Own4SeMJyNvmafbqfo5U/qRQ6NsrAa06obthXXFvFe5fiepZJ5N5dJIHDzgbYAlcxRGI5Ek7K/UKOn8AeOPapGAVx/QD+ZsUXeLcofBbeW4VuHHgXqu3fs+wWVzPVAcVgbX4tTlqx7EANZlv2sB686K/ZFHYIW29tD5xD3Vcc9fCq8ACcWkbChM0K5A/ofQLdYsWOOCaKtUA36KpR6DfAi4l0xNceYWfVp+LaCWw9wJvAnffuCXhCODZMQouzEXhWWHnQN+BuhuPA6wC1CDwqPCcZH0EeFuaw2fxMbJ6AwzC8BfZaiisP7AGtxV6Bb459J7BW4XOAq0dFrkANWoPY1hfCPcq7/x4G3xTHRcWOrKxA3xGufeOEsDanzrcl9yKwcu8fgO0ZRf2Kx94ocN8eaTv13OcD5IDyK4HeqDGLcycg/EZ5jO+eHbic1MVVb6cscDI+N4Ie1KDP11fQRBDgZPMFMALHparTik1b8TwaTc4bDTNXrt3GoDUldzMn2DzHoZ0GVkYlxe2A2goNarVl0EY+M4ZSqINt5DipJmunguM0kWJkLl5iKhX30cvAk1U3XpU8cxd0FFfo45G4Uqgniqql0bLfrOpwdE2txlmdvxqUXD0WQ9OfLwJJC2XX1WYkiktE0MGtCt34kLAs7epj1X6f1VLLOekO3PSf+x1dfS64SswSUONhwn96LGY+a1C3KKmwcWepzyzwBQj6TXH6kydMtAUUy8CLLyx/Xy0LMO/jCtQXfYtFHxVehxH2H2wUFDjc/C7/AAAAAElFTkSuQmCC"/>
+                 <span>chinonsochibuzor@gmail.com</span>
+              </div>
+            </div>
+  
+            <div class="about__information">
+              <h3 class="about__information-title">Experience and Spport</h3>
+  
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAz5JREFUSEuNlo1RGzEQhb/twKnATgWBCoAKgAriVBCoIKSCQAWECoAKsCvAqSCmgrgDZZ5+7iSddKCZG4z+dvft27cymsMAV674qXy+scef6O0p56193DBcbbrtYz77jl+57/rdGIU7K+Br2DTMvwG/48E12NIjNB57APaamAQQ90wNTyCwU3Av4dLhoi1wGg1vgJPq2BnGZoBskqbgYxy9nHkDLxUsW/AOadobrtJbGu5g+l7uOobLiKtLzqJDCagRrSnUXZYGqMsxC7XBmQtIZKO8P7B6mte8nOqIE7Fu4q36uzZYZgU4RJynoCb9R6B+Am71GRyqCvdsN9zCwRXhu0hQ9y7vkKuAYBG9PmSsrrhU8DPsh8Mcb4PhLqEn/gp21fRR/LRhFz/VbpXXPphTw20nFMXjULt9Rzdgl+BitP2N83Uczik6sXoxQGM843ykGlo/z2I7RFbvmlB2latIl4zxarAKhLIHw105n7+CowtwIp+XVoO9M45xWZ4r1AvJbAAjPQ46bVzjPLOTa+uoXEmzNS9G/4obHsDCnsbFne7kj6o5/I2XPGNcVO1qH4v9c8VelV6CXmv7puGR1ZWygCBN3h9j7DLDeWTXscaT/SOD1yhK1wa3Rd0XOa4lJexMMEupVhi3ODsHJyQyxAeREwLPEW79XgIqsfW0qCQ49R1j+9u40HWSLovVG3Bfphf5NP5xoVWK1cNZg9MUcRFfW6v91andBcPhlFguJPLy0V5FKplMY4NxghucniBURFxFIvH/Eec+BQn01kemjwfuIsSakXP/4tJPIDWTAttOOXkDikBqpfEte+okJJR7jSXY1nAJUuX0PiJ0CTy13n+dtjg4p3eT3lOSwGOwveH2zkdhv2Md6811E0m3AnsFp6jfwFbja3VSNS2qDHMXYI/xsCRSkUepnJSCpPN+aB7GJQ7VdDnek8xst9Tqe/xfkSvHUqVddEgGpW6C2LdEgztnXM29j+fIlUtdJNp8t4llUxCqfaKqYx9VW0y0ohqVAyfZC24AxmDrjBtc3pM/1BZnc50vSrmqh4CHPWryx14VHagzBoyP+D5Lunv6j5uiO836Wvoydrt8fpKrPor/ARjMLzLLu8/TAAAAAElFTkSuQmCC"/>
+              <div>
+                <span class="about__information-subtitle">5 Years Job</span>
+                <span class="about__information-subtitle-small">Experience</span>
+               </div>
+              </div>
+  
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAmlJREFUSEudl215GzEQhF8xCIQUQQPBRtAWQVMGZRAbQSDEZdAgiBk0EAIhDNRnT7rT7mlXyhP/ia3T7cfM7EhJbJ8E5PZzuq63JhJ5+rbOIN/rZ7+8FqGD1j32DxAVHT2RmCqxrnoJZWv5TuZrW6oF2SJeIT1r5Lo4qk3bs1N8gkuGn3seuiLKhgvwy+DYxTQda1hMq3eQ/5VADpdOUMhfSLxtpDvwFahjiuTpAXipiY+Qr6bzFnTbl+CYwe7bpVEcOxorSyVgKe6IE7DWfsiJl9rlkcTVlXnA8U2Gb8CtQkK+39f9wt/bCvtu/Nx9FUx55xl43yhrSKUbyNLZneWmMjGmI0DfaOJ1oSDxLvE11L+Bx1BEe0l/7reoXVAziU/Aw3gMrA6iGR0I9gxIHmMgJ8g1ceRiFvahybqzm895SWzn2HTckPQdZeVpdTfdvV/2slo7tolFuVW9w15mcz+yBeH30jqOkW1jP9wTekAweWvHJegpwYN3MGoBJ6g8GVkrmuIjEvDEtajNEZdFVidWIJSiJ7O+vJs4ybGXlChK4jm919WH1btiq4eJ5wtEu45LhGCcdkBvcnbW51RvNOnTqec4mpHqEP51ZwjZmQXq1UCquDrnGib4lGe2xJ1AYgSnB3cwOzqiayBjZQ6NOSK3g712bC97p0Te5ri9Yp0jusZ2wPtUu3MsdvnUM+dcbyM6ajI/57L6A/i7s8zlgXjp7jb5sY4n3iGl/klw327r+xYTt+R69ZnMZXfuxjqQq0+9MjUJTk+bwcE+eTfGoRiIo4xORE4MLcDITOL1ILH/D9xHGozOT6u8/2DGFTtB9XrBAAAAAElFTkSuQmCC"/>
+              <div>
+                <span class="about__information-subtitle">50+ Projects</span>
+                <span class="about__information-subtitle-small">Completed</span>
+               </div>
+              </div>
+  
+              <div class="about__information-data">
+                <img class="about__information-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwtJREFUSEuNl41VGzEQhL+tIE4FIRXEHQQqSFIBpoJABdgVJB3EVJBQAVABdBDowKlAeSPp9HfS2XoP7Dv97M7s7K5spGGAy4/FNz+T/8F4KfWkYbh4ar1JT6eN0vDijlMABPc6o/R0Nn0OvAPWceYFOABP4TnuXWRlaLg2ZrB28B34CqwGgGX8D7ADXqs1HSeGiH28jRWOH8Dm2EER7CSTPXATmYhbmxiPGIkofwNnxaF3wCPGCw5RLOfWOFsb7tzBZeGg5q8grms8LxBHF8KH4vcQEWvLPcY1zl77yk/uy8mfwJdo52Bw4WbGpYP5WIE9G+4sptANOB3WsDmWtsG1w4dIQ8gvatp74jL2OLuM+SeqFK9k1r+vyBk6cE02rhBVOrEmPUXxcwgd9y6oeDiOZIz2PQKf4wEfS7W3VAvdJJBq4Zzq0mz9PVcrL8y/ce+dwSbUxnmMlYvvwO4Mt5koLSEvZEEKQbN+H9Wus99PSikRqyI9xIkrcPupJs9qdfJ6qsOL5Vux/RWdkchEf6VqxVN5qyHKteA+qXEmqHnRrxpJqHBKq3OMTewU30J1M4K4grGtwW3TnxpVJ3GPGlnJcol0er/D2IaimEfPsOqu3qeGeVzJacUWuG2yxp+XqQ5rK8Nxe1o4iaKEmp3odgEhC4YzuMZwEMvWcJHq1BZPNNxN9S3YbROTPtWipkG2k0NH6nO2WsfEI24m+1Rnw2n5IuK+xfS2Qey96houa+sEfKfYn1JAOmRnceVJ9WjfcMp0Ut7p5qBrzWT4Cmf7pQvbJJxGvT49k6rDaf8M1PEOTTr5rTK+AVuBU4lTIdFn8iTeTBbyOFWaMsZCujc4dGp15ypawsjCUeH/0FD7ZvA6HRq9Uh/+BLylW0yxqXcR6OZGoXZPYX2btB24qAU782npy+RcUCk0xyvRTFpbjNv67j88RWjV43O4ippfx6+DtxFOx3CXpCewjeFiCOYyGZkaUa72qb+loc7m299ohBh3ukBZh/M967RfCbMsGEA74vyR32jR836ujxX0H4fXKzSUGCfaAAAAAElFTkSuQmCC"/>
+              <div>
+                <span class="about__information-subtitle">Support</span>
+                <span class="about__information-subtitle-small">Online 24/7</span>
+               </div>
+              </div>
+                
+              </div>
+          </div>  
+        </div>
+    </section>
+    
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <span class="section-subtitle">Why Hire Chinonso</span>
+        <h2 class="section-title">My area of expertise</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="skills__content"></div>
+              <h3 class="skills__subtitle">Frontend</h3>
+
+              <div class="skills__data">
+                  <span class="skills__name">HTML & CSS</span>
+                  <span class="skills__number">80%</span>
+                  <span class="skills__bar skills__html"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">JavaScript</span>
+                  <span class="skills__number">70%</span>
+                  <span class="skills__bar skills__js"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">React</span>
+                  <span class="skills__number">75%</span>
+                  <span class="skills__bar skills__react"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">Angular</span>
+                  <span class="skills__number">85%</span>
+                  <span class="skills__bar skills__angular"></span>
+              </div>
+
+              <div class="skills__content"></div>
+              <h3 class="skills__subtitle">Backend</h3>
+
+              <div class="skills__data">
+                  <span class="skills__name">PHP</span>
+                  <span class="skills__number">60%</span>
+                  <span class="skills__bar skills__php"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">Node Js</span>
+                  <span class="skills__number">65%</span>
+                  <span class="skills__bar skills__node"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">FireBase</span>
+                  <span class="skills__number">85%</span>
+                  <span class="skills__bar skills__firebase"></span>
+              </div>
+
+              <div class="skills__data">
+                  <span class="skills__name">Python</span>
+                  <span class="skills__number">90%</span>
+                  <span class="skills__bar skills__python"></span>
+              </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <!--===== EDUCATION =====-->
+    <section class="education section">
+      <span class="section-subtitle">Qualification</span>
+      <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+             <div>
+              <h3 class="education__year">2015 - 2018</h3>
+              <span class="education__university">Kaduna Polytechnic</span>
+             </div>
+
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Diploma Computer Science</h3>
+              <span class="education__speciality">Hardware</span>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2018 - 2022</h3>
+            <span class="education__university">Nasarawa State University</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+          </div>
+
+          <div>
+            <h3 class="education__race">Bachelors Computer Science</h3>
+            <span class="education__speciality">Software Development</span>
+          </div>
+        </div>
+         
+        </div>
+    </section>
+
+    <!--===== SERVICES =====-->
+    <section class="services section" id="services">
+      <span class="section-subtitle">What I Offer</span>
+      <h2 class="section-title">My Services</h2>
+
+      <div class="services__container bd-grid">
+        <div class="services__content">
+          <i class='bx bx-mobile services__icon'></i>
+          <h3 class="services__title">Mobile Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+        <div class="services__content">
+          <i class='bx bx-code services__icon'></i>
+          <h3 class="services__title">Software Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+        <div class="services__content">
+          <i class='bx bx-server services__icon'></i>
+          <h3 class="services__title">Backend Development</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+        <div class="services__content">
+          <i class='bx bx-pencil services__icon'></i>
+          <h3 class="services__title">Technical Writing</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+        <div class="services__content">
+          <i class='bx bx-brush services__icon'></i>
+          <h3 class="services__title">UI/UX Design</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+        <div class="services__content">
+          <i class='bx bx-pen services__icon'></i>
+          <h3 class="services__title">Graphic Design</h3>
+          <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo ratione architecto magni consectetur quam sequi nisi, iure fugiat a error sit minus hic aliquam! Voluptatem amet in ipsum tenetur.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!--===== PROJECT IN MIND =====-->
+    <section class="project section">
+        <div class="project__container bd-grid">  
+          <div class="project__data">
+            <h2 class="section-title project__title">
+              Do you have any project in mind?
+            </h2>
+            <p class="project__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, magni aperiam sunt velit, quidem consequuntur nesciunt quos ea beatae quae doloribus. Sed modi doloremque labore id. Totam illo impedit assumenda?</p>  
+              <a href="#contact" class="button button__light">Contact Me</a>
+          </div>
+
+          <img src="./images/glass.png" alt="" class="project">
+        </div>
+    </section>
+
+    <!--===== WORKS =====-->
+    <section class="works section" id="works">
+      <span class="section-subtitle">My Portfolio</span>
+      <h2 class="section-title">Recent Works</h2>
+
+      <div class="works__container bd-grid">
+        <div class="works__img">
+            <img src="./images/work1.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 1</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="./images/work2.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 2</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="./images/work3.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 3</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="./images/work4.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 4</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="./images/work5.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 5</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="./images/work6.jpg" alt="">
+
+            <div class="works__data">
+              <a href="#" class="works__link"><i class='bx bx-link-alt' ></i></a>
+              <span class="works__title">Work 6</span>
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <span class="section-subtitle">Contact Me</span>
+      <h2 class="section-title">Get in Touch</h2>
+      
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+
+          <div class="contact__inputs">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="mail" placeholder="Email" class="contact__input">
+          </div>
+
+          <input type="text" placeholder="Project" class="contact__input">
+
+          <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+          <input type="submit" value="Send Message" class="button contact__button">
+        </form>
+
+        <div>
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Call Me</h3>
+            <span class="contact__text">+2348093639845</span> 
+            <span class="contact__text">+2347069981779</span>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">E-mail</h3>
+            <span class="contact__text">chinonsochibuzor2277@gmail.com</span>
+            <span class="contact__text">chinonsochibuzor5@gmail.com</span>
+          </div>
+
+          <div class="contact__info">
+            <h3 class="contact__subtitle">Location</h3>
+            <span class="contact__text">Abuja,Nigeria</span>
+            <span class="contact__text">Remote</span>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer section">
+  <div class="footer__container bd-grid">
+    <h1 class="footer__title">Chinonso</h1>
+    <p class="foot__description">Hi, I am Chinonso and this is my personal website. You can consult me for your tech enquiries and jobs</p>
+
+    <div class="footer__social">
+      <a href="#" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+      <a href="#" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+      <a href="#" class="footer__link"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+
+    <p class="footer__copy">All right reserved by Chinonso - 2022</p>
+  </div>
+</footer>
+<!--===== MAIN JS =====-->
+<script src="./script.js"></script>
+</body>
+</html>
